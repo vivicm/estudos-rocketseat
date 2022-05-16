@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title><link rel="shortcut icon" href="CV-Html-5 (1).ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Atributos em HTML</h1>
+    <!-- Os atributos em HTML podem carregar:
+-informações extras;
+-configurações-->
+<img src="conteudo.png" alt="imagem com o conteúdo da página"> <!--Não há informações, apenas configurações essencias-->
+<!-- Atributos booleanos (verdadeiro ou falso)- não precisam de conteúdo-->
+<input type="text">
+<input type="text" disabled>  <!--disabled- verdadeiro ou falso, omitido ou não-->
+<!-- Aspas
+-simples
+-duplas
+-omissão-->
+<h1>Atributos globais</h1>
+<!-- Atributos globais mais utilizados 
+-class
+-contenteditable
+-data-*
+-hidden
+-id
+-style
+-tabindex
+-title-->
+<div class="carrinho" contenteditable="true">
+ conteúdo <!--conteúdo editável-->
+</div>
+<div class="carrinho" >
+    conteúdo
+   </div>
+<div class="carrinho" data-id="" >
+    conteúdo
+</div>
+<!--o atributo id não pode ser repetido-->
+<div tabindex="1">
+    navegando por tab
+</div>
+<div tabindex="2">
+    navegando por tab
+</div>
+<div tabindex="3">
+    navegando por tab
+</div>
+</body>
+</html>
